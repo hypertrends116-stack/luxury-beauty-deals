@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luxury Beauty Deals</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f4;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    h1 {
+      color: #b65a77;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .product-card {
+      background: white;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product-card a {
+      display: block;
+      margin-top: 10px;
+      color: #b65a77;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Luxury Beauty Deals</h1>
+    <p>Hand-picked Amazon beauty & skincare favorites</p>
+  </header>
+
+  <section class="product-grid">
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/61MzZtJevmL._AC_SL1500_.jpg" alt="Skincare Serum"/>
+      <a href="https://www.amazon.com/dp/B07VXT5FJ5?tag=yourtag-20" target="_blank">Vitamin C Face Serum</a>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/81GgHc0x91L._SL1500_.jpg" alt="Jade Roller"/>
+      <a href="https://www.amazon.com/dp/B07QHDZ29Z?tag=yourtag-20" target="_blank">Jade Roller & Gua Sha Set</a>
+    </div>
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/81kfwMzoBHL._AC_SL1500_.jpg" alt="Luxury Face Cream"/>
+      <a href="https://www.amazon.com/dp/B00X3BH6OQ?tag=yourtag-20" target="_blank">Luxury Anti-Aging Cream</a>
+    </div>
+  </section>
+</body>
+</html>
