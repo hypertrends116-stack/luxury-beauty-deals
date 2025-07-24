@@ -5,73 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Luxury Beauty Deals</title>
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      background: #fdf9f8;
-      color: #333;
-    }
-    header {
-      background: #f7e5e1;
-      padding: 2rem;
-      text-align: center;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-      padding: 2rem;
-    }
-    .card {
-      background: #fff;
-      border-radius: 12px;
-      padding: 1rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .card img {
-      width: 100%;
-      border-radius: 8px;
-    }
-    .card h3 {
-      font-size: 1.2rem;
-      margin: 1rem 0 0.5rem;
-    }
-    .card a {
-      color: #c71585;
-      text-decoration: none;
-      font-weight: bold;
-    }
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #fefefe; color: #333; }
+    h1 { font-size: 2rem; color: #8a2be2; }
+    h2 { margin-top: 2rem; color: #444; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .card { border: 1px solid #ddd; padding: 1rem; border-radius: 10px; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+    .card img { width: 100%; height: auto; border-radius: 6px; }
+    .card a { display: inline-block; margin-top: 0.5rem; color: #8a2be2; text-decoration: none; font-weight: bold; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Top Luxury Skincare Deals</h1>
-    <p>Curated favorites from Amazon's premium beauty collection</p>
-  </header>
-  <section class="products">
+  <h1>Luxury Beauty Deals</h1>
+
+  <h2>🛍️ Shop the Full Luxury Beauty Category</h2>
+  <p>
+    <a href="https://www.amazon.com/b?node=11060451&tag=hypertrends11-20" target="_blank">
+      Browse All Skincare on Amazon →
+    </a>
+  </p>
+
+  <h2>🌟 Featured Product Picks</h2>
+  <div class="grid">
     <div class="card">
-      <a href="serum-glow.html">
-        <img src="https://m.media-amazon.com/images/I/61nH1ck2kYL._SL1500_.jpg" alt="Facial Serum" />
-        <h3>Radiance Boost Serum</h3>
-      </a>
+      <img src="https://m.media-amazon.com/images/I/61tP6zLncLL._AC_SL1500_.jpg" alt="Serum Glow Treatment">
+      <h3>Glow Boost Vitamin C Serum</h3>
+      <p>Brighten and hydrate with this luxury serum designed to revitalize your skin’s glow.</p>
+      <a href="serum-glow.html">View Product →</a>
     </div>
-    <div class="card">
-      <a href="eye-cream-lift.html">
-        <img src="https://m.media-amazon.com/images/I/61aU3hJcRgL._SL1500_.jpg" alt="Eye Cream" />
-        <h3>Firm & Brighten Eye Cream</h3>
-      </a>
-    </div>
-    <div class="card">
-      <a href="night-mask.html">
-        <img src="https://m.media-amazon.com/images/I/61UZS3eU5nL._SL1500_.jpg" alt="Sleep Mask" />
-        <h3>Overnight Renewal Mask</h3>
-      </a>
-    </div>
-  </section>
+  </div>
 </body>
 </html>
