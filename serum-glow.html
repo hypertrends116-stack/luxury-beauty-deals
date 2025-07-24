@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Luxury Beauty Deals</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Serum Glow Essentials</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(120deg, #f6f0ff, #fff);
+      background: linear-gradient(120deg, #fff0f5, #ffffff);
       color: #333;
     }
     header {
-      background-color: #a62682;
+      background-color: #d63384;
       color: white;
       padding: 40px 20px;
       text-align: center;
@@ -20,18 +20,14 @@
     }
     header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 2.2rem;
     }
     main {
       max-width: 1000px;
       margin: auto;
       padding: 40px 20px;
     }
-    .category-intro {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    .card-grid {
+    .product-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 30px;
@@ -58,13 +54,24 @@
       padding: 20px;
     }
     .card-title {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       margin: 0 0 10px;
-      color: #a62682;
+      color: #d63384;
     }
     .card-desc {
       font-size: 0.95rem;
       color: #666;
+    }
+    .back-link {
+      display: inline-block;
+      margin: 30px 0 10px;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #888;
+    }
+    .back-link a {
+      color: #d63384;
+      text-decoration: none;
     }
     footer {
       text-align: center;
@@ -76,45 +83,58 @@
 </head>
 <body>
   <header>
-    <h1>Luxury Beauty Deals</h1>
-    <p>Curated skincare and self-care for modern glow-getters ✨</p>
+    <h1>Serum Glow Essentials</h1>
+    <p>Top 5 radiant serums selected for glow-getters ✨</p>
   </header>
+
   <main>
-    <section class="category-intro">
-      <h2>Top Featured Products</h2>
-      <p>Explore handpicked luxury skincare essentials below. Click to learn more or buy on Amazon.</p>
-    </section>
-    <section class="card-grid">
-      <a href="https://www.amazon.com/b?node=3760911&tag=hypertrends11-20" class="card" target="_blank">
-        <img src="https://m.media-amazon.com/images/I/61yq+N-scbL._AC_SL1500_.jpg" alt="Luxury Beauty on Amazon">
-        <div class="card-content">
-          <div class="card-title">Shop All Luxury Beauty</div>
-          <div class="card-desc">Browse the full collection of premium skincare, makeup, and more.</div>
-        </div>
-      </a>
-      <a href="serum-glow.html" class="card">
-        <img src="https://m.media-amazon.com/images/I/71vOCL2jj2L._AC_SL1500_.jpg" alt="Radiant Glow Facial Serum">
-        <div class="card-content">
-          <div class="card-title">Radiant Glow Serum</div>
-          <div class="card-desc">Brightens and hydrates. A must-have for your day & night routine.</div>
-        </div>
-      </a>
-      <a href="https://www.amazon.com/dp/B07XY9VZ95?tag=hypertrends11-20" class="card" target="_blank">
-        <img src="https://m.media-amazon.com/images/I/71i8c1u-jcL._AC_SY679_.jpg" alt="Luxury Eye Cream">
-        <div class="card-content">
-          <div class="card-title">Luxury Eye Cream</div>
-          <div class="card-desc">Firms and smooths under-eye skin with peptides and caffeine complex.</div>
-        </div>
-      </a>
+    <section class="product-grid">
       <a href="https://www.amazon.com/dp/B09JPKP13T?tag=hypertrends11-20" class="card" target="_blank">
-        <img src="https://m.media-amazon.com/images/I/610crE8FMGL._AC_SY679_.jpg" alt="Overnight Recovery Mask">
+        <img src="https://m.media-amazon.com/images/I/61dMZ04pbzL._AC_SL1500_.jpg" alt="Overnight Recovery Mask">
         <div class="card-content">
           <div class="card-title">Overnight Recovery Mask</div>
-          <div class="card-desc">Wake up to hydrated, plump skin. Works while you sleep.</div>
+          <div class="card-desc">Replenish skin moisture overnight for a luminous morning glow.</div>
+        </div>
+      </a>
+
+      <a href="https://www.amazon.com/dp/B07XY9VZ95?tag=hypertrends11-20" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/71i8c1u-jcL._AC_SL1500_.jpg" alt="Luxury Eye Cream">
+        <div class="card-content">
+          <div class="card-title">Luxury Eye Cream</div>
+          <div class="card-desc">Brightens and depuffs the under-eye area with peptides + caffeine.</div>
+        </div>
+      </a>
+
+      <a href="https://www.amazon.com/dp/B0B51V6BQH?tag=hypertrends11-20" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/61CMaVtK8IL._AC_SL1500_.jpg" alt="Radiant Glow Serum">
+        <div class="card-content">
+          <div class="card-title">Radiant Glow Serum</div>
+          <div class="card-desc">Vitamin C + Hyaluronic acid to brighten and hydrate.</div>
+        </div>
+      </a>
+
+      <a href="https://www.amazon.com/dp/B0C3K12MZL?tag=hypertrends11-20" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/71GZzWiWcwL._AC_SL1500_.jpg" alt="24K Gold Glow Serum">
+        <div class="card-content">
+          <div class="card-title">24K Gold Glow Serum</div>
+          <div class="card-desc">Luxury treatment infused with real gold flakes to boost radiance.</div>
+        </div>
+      </a>
+
+      <a href="https://www.amazon.com/dp/B0BRC97XY8?tag=hypertrends11-20" class="card" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/61IKkpmx-FL._AC_SL1500_.jpg" alt="Glow Boosting Elixir">
+        <div class="card-content">
+          <div class="card-title">Glow Boosting Elixir</div>
+          <div class="card-desc">Botanical blend to even tone and nourish tired skin.</div>
         </div>
       </a>
     </section>
+
+    <div class="back-link">
+      <a href="index.html">&larr; Back to Main Page</a>
+    </div>
   </main>
+
   <footer>
     &copy; 2025 Luxury Beauty Deals · Powered by Amazon Affiliate · Tag: hypertrends11-20
   </footer>
