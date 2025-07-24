@@ -1,70 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Luxury Beauty Deals</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Radiant Glow Serum</title>
   <style>
     body {
-      margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(120deg, #f6f0ff, #fff);
+      margin: 0;
+      background: linear-gradient(to right, #fff0f5, #fefefe);
       color: #333;
     }
     header {
       background-color: #a62682;
       color: white;
-      padding: 40px 20px;
+      padding: 30px 20px;
       text-align: center;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
     }
     main {
-      max-width: 1000px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-    .category-intro {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    .card-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 30px;
-    }
-    .card {
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-      overflow: hidden;
-      text-decoration: none;
-      color: inherit;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
-    }
-    .card img {
-      width: 100%;
-      height: 260px;
-      object-fit: cover;
-    }
-    .card-content {
+      max-width: 800px;
+      margin: 40px auto;
       padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     }
-    .card-title {
-      font-size: 1.2rem;
-      margin: 0 0 10px;
+    img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    h1 {
       color: #a62682;
     }
-    .card-desc {
-      font-size: 0.95rem;
-      color: #666;
+    .buy-button {
+      display: inline-block;
+      margin-top: 20px;
+      background: #a62682;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .buy-button:hover {
+      background: #8e1d6c;
     }
     footer {
       text-align: center;
@@ -76,47 +58,14 @@
 </head>
 <body>
   <header>
-    <h1>Luxury Beauty Deals</h1>
-    <p>Curated skincare and self-care for modern glow-getters ✨</p>
+    <h1>Radiant Glow Serum</h1>
+    <p>Deep hydration meets luminous skin</p>
   </header>
   <main>
-    <section class="category-intro">
-      <h2>Top Featured Products</h2>
-      <p>Explore handpicked luxury skincare essentials below. Click to learn more or buy on Amazon.</p>
-    </section>
-    <section class="card-grid">
-      <a href="https://www.amazon.com/b?node=3760911&tag=hypertrends11-20" class="card" target="_blank">
-        <img src="https://m.media-amazon.com/images/I/61yq+N-scbL._AC_SL1500_.jpg" alt="Luxury Beauty on Amazon">
-        <div class="card-content">
-          <div class="card-title">Shop All Luxury Beauty</div>
-          <div class="card-desc">Browse the full collection of premium skincare, makeup, and more.</div>
-        </div>
-      </a>
-      <a href="serum-glow.html" class="card">
-        <img src="https://m.media-amazon.com/images/I/61CMaVtK8IL._AC_SL1500_.jpg" alt="Radiant Glow Facial Serum">
-        <div class="card-content">
-          <div class="card-title">Radiant Glow Serum</div>
-          <div class="card-desc">Brightens and hydrates. A must-have for your day & night routine.</div>
-        </div>
-      </a>
-      <a href="https://www.amazon.com/dp/B07XY9VZ95?tag=hypertrends11-20" class="card" target="_blank">
-        <img src="https://m.media-amazon.com/images/I/71i8c1u-jcL._AC_SL1500_.jpg" alt="Luxury Eye Cream">
-        <div class="card-content">
-          <div class="card-title">Luxury Eye Cream</div>
-          <div class="card-desc">Firms and smooths under-eye skin with peptides and caffeine complex.</div>
-        </div>
-      </a>
-      <a href="https://www.amazon.com/dp/B09JPKP13T?tag=hypertrends11-20" class="card" target="_blank">
-        <img src="https://m.media-amazon.com/images/I/61dMZ04pbzL._AC_SL1500_.jpg" alt="Overnight Recovery Mask">
-        <div class="card-content">
-          <div class="card-title">Overnight Recovery Mask</div>
-          <div class="card-desc">Wake up to hydrated, plump skin. Works while you sleep.</div>
-        </div>
-      </a>
-    </section>
-  </main>
-  <footer>
-    &copy; 2025 Luxury Beauty Deals · Powered by Amazon Affiliate · Tag: hypertrends11-20
-  </footer>
-</body>
-</html>
+    <img src="https://m.media-amazon.com/images/I/61CMaVtK8IL._AC_SL1500_.jpg" alt="Radiant Glow Serum" />
+    <h2>Why We Love It</h2>
+    <p>This radiant glow serum is packed with vitamin C, hyaluronic acid, and botanical extracts designed to brighten, hydrate, and renew your skin's appearance.</p>
+    <ul>
+      <li>✨ Reduces dullness and promotes a natural glow</li>
+      <li>💧 Provides deep, lasting hydration</li>
+      <li>🌿 Clean beaut
