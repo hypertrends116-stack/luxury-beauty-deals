@@ -2,44 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Luxury Beauty Deals</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #fff8f4;
-      color: #333;
       margin: 0;
-      padding: 20px;
+      background: #fdf9f8;
+      color: #333;
     }
     header {
+      background: #f7e5e1;
+      padding: 2rem;
       text-align: center;
-      padding: 20px 0;
     }
     h1 {
-      color: #b65a77;
+      margin: 0;
+      font-size: 2rem;
     }
-    .product-grid {
+    .products {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
     }
-    .product-card {
-      background: white;
-      border: 1px solid #eee;
-      border-radius: 10px;
-      padding: 15px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
     }
-    .product-card img {
-      max-width: 100%;
+    .card img {
+      width: 100%;
       border-radius: 8px;
     }
-    .product-card a {
-      display: block;
-      margin-top: 10px;
-      color: #b65a77;
+    .card h3 {
+      font-size: 1.2rem;
+      margin: 1rem 0 0.5rem;
+    }
+    .card a {
+      color: #c71585;
       text-decoration: none;
       font-weight: bold;
     }
@@ -47,24 +50,28 @@
 </head>
 <body>
   <header>
-    <h1>Luxury Beauty Deals</h1>
-    <p>Hand-picked Amazon beauty & skincare favorites</p>
+    <h1>Top Luxury Skincare Deals</h1>
+    <p>Curated favorites from Amazon's premium beauty collection</p>
   </header>
-
-<section class="product-grid">
-  <div class="product-card">
-    <img src="https://m.media-amazon.com/images/I/61vE4Hd0PrL._SL1500_.jpg" alt="TruSkin Vitamin C Serum"/>
-    <a href="https://www.amazon.com/dp/B01EKUBU5Y?tag=hypertrends11-20" target="_blank">TruSkin Vitamin C Serum</a>
-  </div>
-  <div class="product-card">
-    <img src="https://m.media-amazon.com/images/I/81GgHc0x91L._SL1500_.jpg" alt="BAIMEI IcyMe Jade Roller & Gua Sha Set"/>
-    <a href="https://www.amazon.com/dp/B08RD6S5HF?tag=hypertrends11-20" target="_blank">BAIMEI IcyMe Jade Roller & Gua Sha Set</a>
-  </div>
-  <div class="product-card">
-    <img src="https://m.media-amazon.com/images/I/81kfwMzoBHL._AC_SL1500_.jpg" alt="SeoulCeuticals Korean Vitamin C Serum"/>
-    <a href="https://www.amazon.com/dp/B0DHJ4H9Z8?tag=hypertrends11-20" target="_blank">SeoulCeuticals Korean Vitamin C Serum</a>
-  </div>
-</section>
-
+  <section class="products">
+    <div class="card">
+      <a href="serum-glow.html">
+        <img src="https://m.media-amazon.com/images/I/61nH1ck2kYL._SL1500_.jpg" alt="Facial Serum" />
+        <h3>Radiance Boost Serum</h3>
+      </a>
+    </div>
+    <div class="card">
+      <a href="eye-cream-lift.html">
+        <img src="https://m.media-amazon.com/images/I/61aU3hJcRgL._SL1500_.jpg" alt="Eye Cream" />
+        <h3>Firm & Brighten Eye Cream</h3>
+      </a>
+    </div>
+    <div class="card">
+      <a href="night-mask.html">
+        <img src="https://m.media-amazon.com/images/I/61UZS3eU5nL._SL1500_.jpg" alt="Sleep Mask" />
+        <h3>Overnight Renewal Mask</h3>
+      </a>
+    </div>
+  </section>
 </body>
 </html>
