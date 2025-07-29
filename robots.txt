@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hypertrends116-stack.github.io/luxury-beauty-deals/sitemap.xml
