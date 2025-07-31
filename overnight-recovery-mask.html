@@ -127,9 +127,17 @@
     </div>
     <div class="back"><a href="index.html">&larr; Back to Luxury Beauty Deals</a></div>
   </main>
-  <div class="footer">
-    &copy; 2025 Luxury Beauty Deals · Powered by Amazon Affiliate · Tag: hypertrends11-20<br>
-    <small>As an Amazon Associate I earn from qualifying purchases. Thank you for supporting my small business 🙏</small>
-  </div>
+  <div id="footer-placeholder"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    })
+    .catch(err => {
+      console.error("Failed to load footer:", err);
+    });
+</script>
 </body>
 </html>
