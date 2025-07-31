@@ -1,6 +1,30 @@
+/* Footer Styles */
+footer {
+  background-color: #f8f8f8;       /* Light background like your site */
+  color: #333333;                  /* Dark text for readability */
+  text-align: center;
+  padding: 20px 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #e0d9d1;   /* Subtle divider */
+}
 
 footer p {
   margin: 5px 0;
+}
+
+footer a {
+  color: #bf9b7b;                  /* Warm tan brand color */
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #d2b897;                  /* Hover accent */
+  text-decoration: underline;
 }
 
 footer svg {
