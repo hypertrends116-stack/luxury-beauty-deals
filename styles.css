@@ -1,0 +1,16 @@
+
+footer p {
+  margin: 5px 0;
+}
+
+footer svg {
+  vertical-align: middle;
+  margin-right: 6px;
+  fill: #bf9b7b;
+  transition: fill 0.3s ease;
+}
+
+footer a:hover svg,
+footer a:focus svg {
+  fill: #d2b897;
+}
