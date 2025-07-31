@@ -92,10 +92,21 @@
       </a>
     </section>
   </main>
+<div id="footer-placeholder"></div>
 
-  <footer>
-    <p>&copy; 2025 Luxury Beauty Deals · Powered by Amazon Affiliate · Tag: hypertrends11-20</p>
-    <p>&copy; As an Amazon Associate I earn from qualifying purchases. Thank you so much for supporting my small business 🙏</p>
-  </footer>
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    })
+    .catch(err => {
+      console.error("Failed to load footer:", err);
+    });
+</script>
+ <!-- <footer> -->
+ <!--   <p>&copy; 2025 Luxury Beauty Deals · Powered by Amazon Affiliate · Tag: hypertrends11-20</p> -->
+  <!--  <p>&copy; As an Amazon Associate I earn from qualifying purchases. Thank you so much for supporting my small business 🙏</p> -->
+  <!-- </footer> -->
 </body>
 </html>
